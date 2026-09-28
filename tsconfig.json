@@ -1,0 +1,1 @@
+{"compilerOptions":{"types":["@orb/plugin-sdk/main","@orb/plugin-sdk/ui","@orb/plugin-sdk/frame"],"noEmit":true},"include":["examples/**/*.ts"]}

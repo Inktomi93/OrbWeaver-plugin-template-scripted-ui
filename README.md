@@ -4,7 +4,7 @@ This is a source-first starter repository. Install released `*.orb-plugin.zip` a
 
 ## Develop
 
-1. Install Node 22 and pnpm 10.17.1.
+1. Install Node 26 and pnpm 10.17.1.
 2. Run `pnpm install --frozen-lockfile`.
 3. Edit the source and its `manifest.json`.
 4. Run `pnpm build`; archives appear in `dist/`.
@@ -12,4 +12,4 @@ This is a source-first starter repository. Install released `*.orb-plugin.zip` a
 
 `host-v1.d.ts` is the public authoring contract copied beside each guest entry. It documents every supported hook, surface anchor, command placement and capability. Keep it in sync when upgrading the Orbweaver SDK.
 
-`examples/scripted` demonstrates house-rendered scripted UI (`main.js` + `ui.js`). `examples/frame` is a separate custom-frame example requiring `ui.frame`; use it only when the sealed house node vocabulary cannot express the interface. Their manifests, capabilities and assets are independent.
+`examples/scripted` demonstrates house-rendered scripted UI (`main.ts` + `ui.ts`). `examples/frame` is a separate custom-frame example requiring `ui.frame`; use it only when the sealed house node vocabulary cannot express the interface. Their manifests, capabilities and assets are independent.
