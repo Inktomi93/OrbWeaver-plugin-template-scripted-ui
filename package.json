@@ -5,7 +5,8 @@
   "packageManager": "pnpm@10.17.1",
   "scripts": {
     "check": "orb-plugin check examples/scripted && orb-plugin check examples/frame",
-    "build": "orb-plugin build examples/scripted && orb-plugin build examples/frame"
+    "build": "orb-plugin build examples/scripted && orb-plugin build examples/frame",
+    "pack": "mkdir -p dist && orb-plugin pack examples/scripted --out dist/scripted-ui-starter.orb-plugin.zip && orb-plugin pack examples/frame --out dist/custom-frame-starter.orb-plugin.zip"
   },
   "devDependencies": {
     "@orb/plugin-sdk": "0.1.0",
