@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "strict": true,
+    "noEmit": true,
+    "types": ["@orb/plugin-sdk/main"],
+    "lib": ["ES2023"],
+    "module": "None",
+    "moduleDetection": "legacy",
+    "target": "ES2023"
+  },
+  "files": ["src/main.ts"]
+}

@@ -4,9 +4,7 @@
   "version": "0.1.0",
   "hostVersion": 1,
   "entry": "main.js",
-  "description": "A tiny arcade beside the story: a complete, playable 2048 in the room's side panel, drawn by the plugin's own code in an isolated frame. Something to fidget with while the narrator types.",
+  "description": "A small isolated frame with its own button and typed frame script.",
   "author": "Orbweaver",
-  "capabilities": [
-    "ui.frame"
-  ]
+  "capabilities": ["ui.frame"]
 }

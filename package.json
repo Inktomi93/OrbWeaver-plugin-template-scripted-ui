@@ -2,14 +2,14 @@
   "name": "orb-plugin-template-visual",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm@10.17.1",
+  "packageManager": "pnpm@12.6.0",
   "scripts": {
-    "check": "orb-plugin check examples/scripted && orb-plugin check examples/frame",
-    "build": "orb-plugin build examples/scripted && orb-plugin build examples/frame",
-    "pack": "mkdir -p dist && orb-plugin pack examples/scripted --out dist/scripted-ui-starter.orb-plugin.zip && orb-plugin pack examples/frame --out dist/custom-frame-starter.orb-plugin.zip"
+    "check": "orb-plugin support --check SUPPORT.md && orb-plugin check . --source-dir src --out-dir . && orb-plugin check examples/frame --source-dir examples/frame/src --out-dir examples/frame",
+    "build": "orb-plugin build . --source-dir src --out-dir . && orb-plugin build examples/frame --source-dir examples/frame/src --out-dir examples/frame",
+    "pack": "orb-plugin pack . --source-dir src --out dist/scripted-ui-starter.orb-plugin.zip && orb-plugin pack examples/frame --source-dir examples/frame/src --out dist/custom-frame-starter.orb-plugin.zip"
   },
   "devDependencies": {
-    "@orb/plugin-sdk": "0.1.0",
-    "@orb/plugin-toolchain": "0.1.0"
+    "@orb/plugin-sdk": "https://github.com/Inktomi93/orbweaver/releases/download/plugin-authoring-v0.1.0/orb-plugin-sdk-0.1.0.tgz",
+    "@orb/plugin-toolchain": "https://github.com/Inktomi93/orbweaver/releases/download/plugin-authoring-v0.1.0/orb-plugin-toolchain-0.1.0.tgz"
   }
 }
