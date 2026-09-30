@@ -1,4 +1,4 @@
-# Orbweaver visual plugin starter
+# Orbweaver scripted UI plugin starter
 
 This starter has authored TypeScript and checked generated JavaScript. Orbweaver can install the scripted
 house-UI example, including its shipped image, directly from this repository's Git URL.

@@ -1,4 +1,4 @@
-# Authoring Orbweaver visual plugins
+# Authoring Orbweaver scripted UI plugins
 
 This repository contains two independently buildable plugins:
 

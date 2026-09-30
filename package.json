@@ -1,5 +1,5 @@
 {
-  "name": "orb-plugin-template-visual",
+  "name": "orb-plugin-template-scripted-ui",
   "version": "0.1.0",
   "private": true,
   "packageManager": "pnpm@12.6.0",
