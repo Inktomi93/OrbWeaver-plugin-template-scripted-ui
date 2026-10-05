@@ -219,6 +219,10 @@ the installer. There is no plugin timer or scheduler.
 ### Tools, transforms, and macros
 
 - `host.tools.register` declares a model tool with JSON Schema parameters and an `unknown` handler input.
+- Set a tool's `displayName` to its transcript label. Return readable prose or a JSON document with a `summary` string.
+- Completed tool call/result pairs replay from the active swipe on later tool-capable turns. `replayHistory` defaults to `true`.
+- Set `replayHistory: false` for transient results. Hiding or deleting a card removes replay without undoing its effects or deleting prose.
+- The history budget trims each exchange with its message row. RPG turn-tool display records remain display-only.
 - `host.transforms.register` hooks `user_input` or `assembled_dynamic` under a 250 ms deadline.
 - `host.transforms.registerDisplay` changes only the installer's rendered view, never canon.
 - `host.macros.register` supplies a namespaced no-argument value macro once per turn.
