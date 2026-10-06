@@ -154,6 +154,10 @@ field event, demonstrating the intended no-network keystroke path.
 
 The exact anchor and tier matrix is in [SUPPORT.md](SUPPORT.md#surface-mounts).
 
+Surface IDs start with a lowercase letter and contain only lowercase letters, digits, and underscores.
+Keep them at most 41 characters. Use the same ID in registration and `ui.render`, such as `starter_browser`.
+This applies to frame registrations too; plugin slugs and DOM element IDs follow different rules.
+
 The house vocabulary includes:
 
 - layout: `stack`, `row`, `section`

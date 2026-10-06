@@ -3,7 +3,7 @@
 const host = orb.host(1);
 if (host.grants.includes("ui.surface")) {
     host.ui.register({
-        id: "starter-browser",
+        id: "starter_browser",
         anchor: "settings",
         title: "Scripted UI starter",
         tier: "scripted",

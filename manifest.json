@@ -1,7 +1,7 @@
 {
   "id": "starter-scripted-ui",
   "name": "Scripted UI Starter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "hostVersion": 1,
   "entry": "main.js",
   "uiEntry": "ui.js",

@@ -5,7 +5,7 @@ const examples = ["A quiet library", "A stormy harbor", "A hidden garden"];
 let filter = "";
 function render() {
     const visible = examples.filter((example) => example.toLowerCase().includes(filter.toLowerCase()));
-    ui.render("starter-browser", {
+    ui.render("starter_browser", {
         kind: "stack",
         gap: "field",
         children: [

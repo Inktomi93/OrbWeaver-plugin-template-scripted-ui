@@ -1,7 +1,7 @@
 {
   "id": "starter-custom-frame",
   "name": "Custom Frame Starter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "hostVersion": 1,
   "entry": "main.js",
   "description": "A small isolated frame with its own button and typed frame script.",

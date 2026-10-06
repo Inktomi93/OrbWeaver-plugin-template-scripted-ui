@@ -1,7 +1,7 @@
 const host = orb.host(1);
 if (host.grants.includes("ui.frame")) {
   host.ui.registerFrame({
-    id: "starter-frame",
+    id: "starter_frame",
     anchor: "chat-flank",
     title: "Custom frame starter",
     html: `<main><img id="starter-mark" alt="Violet checkerboard starter mark"><h1>Frame starter</h1><output id="count">0</output><button id="increment" type="button">Increment</button><script>/* @orb-frame-script */</script></main>`,
