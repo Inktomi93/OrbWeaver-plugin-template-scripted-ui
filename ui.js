@@ -9,7 +9,6 @@ function render() {
         kind: "stack",
         gap: "field",
         children: [
-            { kind: "image", bundleAsset: "ui/assets/starter-mark.png", alt: "Violet checkerboard starter mark", aspect: "square" },
             { kind: "text", value: "Filter this list without a server round trip.", voice: "gloss" },
             { kind: "textField", name: "filter", label: "Find a scene", value: filter },
             { kind: "list", items: visible.length > 0 ? visible : ["No matching scene"] },

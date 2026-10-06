@@ -39,7 +39,7 @@ src/main.ts                     server QuickJS registration source
 src/ui.ts                       browser QuickJS scripted-surface source
 main.js                         generated, committed server entry
 ui.js                           generated, committed browser entry
-ui/assets/starter-mark.png      admitted raster used by the scripted house surface
+ui/assets/starter-mark.png      admitted raster retained for pack validation
 examples/frame/manifest.json    independent frame plugin manifest
 examples/frame/src/main.ts      frame registration in the server guest
 examples/frame/src/frame.ts     frame document script with DOM types
