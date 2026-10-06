@@ -275,6 +275,6 @@ and frames have the tighter limits described above.
 - If the SDK rejects a host call or tree field, consult [SUPPORT.md](SUPPORT.md) and the installed type
   contract. Do not cast around the runtime boundary.
 
-The [showcase plugins](https://github.com/Inktomi93/orbweaver/tree/main/packages/showcase-plugins) provide
+The [showcase plugins](https://github.com/Inktomi93/OrbWeaver/tree/main/packages/showcase-plugins) provide
 larger examples against the same SDK and toolchain. Use [SUPPORT.md](SUPPORT.md) for the checked capability,
 hook, host-call, surface, and placement registry rather than inferring support from a declaration alone.
